@@ -14,7 +14,7 @@ int main() {
     std::cout << "+, -, *, /\n";
     
     // User input
-    std::cout << "\nEnter your #1: ";
+    std::cout << "Enter your #1: ";
     std::cin >> num1;
     std::cout << "Enter your operator: ";
     std::cin >> op;
@@ -44,11 +44,10 @@ int main() {
             std::cout << "Invalid input!\n";
             std::cout << "Enter your operator: ";
             std::cin >> op;
-            std::cout << "\n";
         }
     }
 
     // Prints result
-    std::cout << "\nThe result is " << sum << ".\n";
+    std::cout << "The result is " << sum << ".\n";
     std::cout << "*****************************";
 }
